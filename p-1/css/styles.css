@@ -1,0 +1,147 @@
+.dark{
+  /*border-style: dashed;
+  border-color: red;*/
+  background-image: url(../images/dark.png);
+  height: 100px;
+  background-repeat: space;
+  background-position: center;
+  background-position: bottom;
+  background-color: #154871;
+  padding-right: 10px;
+}
+.green{
+  width: 90%;
+  margin: auto;
+  /*border-style: dashed;
+  border-color: red;*/
+  background-color: #33cc66;
+  border-radius: 5px;
+  margin-top: 15px;
+  padding-bottom: 15px;
+}
+.top-row{
+  background-color: #1f8adf;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  /*border-style: dotted;
+  border-color: red;*/
+}
+.top-nav li{
+  list-style-type: none;
+  color: white;
+  float: right;
+  font-family: sans-serif;
+  margin: 10px;
+  vertical-align: middle;
+  padding: 0 10px;
+}
+
+h2{
+  color: white;
+  font-family: sans-serif;
+  font-size: 35px;
+}
+.dashboard{
+ border-style: dotted;
+ border-color: transparent;
+ padding-left: 20px;
+}
+
+.col-md-12{
+  background-color: gray;
+}
+.mini{
+  margin-top: -5px;
+  color: white;
+}
+.gear{
+  margin-top: -5px;
+}
+.help{
+    margin-top: -5px;
+}
+.line-separator{
+  height: 1px;
+  background: gray;
+}
+#darknavs ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-align: center;
+image-orientation: center;
+}
+
+#darknavs ul li{
+  display: inline;
+}
+
+#darknavs ul li a{
+  text-decoration: none;
+padding: .2em 1em;
+}
+
+#darknavs ul li a:hover{
+  color: #33cc66;
+}
+.speed:hover{
+background-image: url("nav1_hover.png");
+}
+.arrows{
+  display: inline;
+  padding: 2em 1em;
+  list-style-type: none;
+  text-align: center;
+  image-orientation: center;
+}
+  li{
+    display: inline-block;
+    float: left;
+}
+.announcements{
+ color: #fe7f13;
+ font-family: sans-serif;
+ font-size: 14px;
+ border-color: red;
+ border-style: dotted;
+ padding-top: 30px;
+}
+.text{
+  color: gray;
+  font-family: sans-serif;
+  font-size: 14px;
+  float: inherit;
+  float: left;
+  text-align: center;
+  margin-left: 160px;
+  margin-top: -35px;
+}
+
+.col-md-6{
+  text-align: center;
+  height: 50px;
+}
+.maincontent{
+  background-color: gray;
+  border-color: red;
+  border-style: dotted;
+  margin: auto;
+}
+.clickarrows{
+  margin-left: 1000px;
+  margin-top: -60px;
+  float
+}
+.taskrow{
+  margin: 15px;
+}
+.task-head{
+  font-size: 30px;
+  font-family: sans-serif;
+  color: #2498f4
+}
+.graygear{
+  width: 35px;
+  height: 35px;
+  float: right;
+}
