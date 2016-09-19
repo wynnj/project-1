@@ -12,130 +12,284 @@
     <link href="css/styles.css" rel="stylesheet">
   </head>
 
+<body>
 
-  <body>
-      <div class="top-row">
-        <ul class="top-nav li">
-          <li><a href="#">
-            <div class="gear">
-            <img src="images/whitegear.gif"</li>
+  <!--Blue Nav-->
+  <div class="blue-nav">
+    <div class="container-fluid">
+      <div class="col-md-12">
+      <ul class="blue-list">
+        <li>
+          MINI of Raleigh
+        </li>
+        <li>
+          <a href="#">
+            <img src="images/whitegear.png"/>
           </a>
-        </div>
-          <li><a href"#">
-            <div class="help">
-            <img src="images/helpbutton.gif"</li>
+        </li>
+        <li>
+          <a href="#">
+            <img src="images/whitequestionmark.png"/>
           </a>
-          <div class="line-separator"></div>
-            <li><a href="#">
-              <div class="mini">
-              <p>
-                MINI of Raleigh
-              </p>
-              </div>
-            </a>
-            </li>
-        </div>
-        </ul>
-</div>
-<div class=dark>
-  <div id="darknavs">
-<ul>
-  <li>
-    <a href="#">
-    <img src="images/nav1.gif" />
-  </a>
-  </li>
-  <li>
-    <a href="#">
-      <img src="images/nav2.gif"/>
-    </a>
-  </li>
-  <li>
-    <a href="#">
-      <img src="images/nav3.gif"/>
-    </a>
-  </li>
-  <li>
-    <a href="#">
-      <img src="images/nav4.png"/>
-    </a>
-  </li>
-  <li>
-    <a href="#">
-      <img src="images/nav5.png"/>
-    </a>
-  </li>
-    <li>
-      <a href="#">
-        <img src="images/nav6.png"/>
-      </a>
-    </li>
-</ul>
-  </div>
-</div>
-<div class=".col-xs-12 .col-md-8">
-  <div class="green">
-  <div class="dashboard">
-    <h2>Dashboard</h2>
+        </li>
+      </ul>
+      </div>
     </div>
-</div>
-</div>
-
-
-  <div class=".col-xs-6 .col-md-4">
-    <!--<div class="search-bar">
-      <input type="text" name="search"/>
-    </div>-->
-</div>
-
-<div class="main-content">
-<div class=".col-md-3"></div>
-  <div class=announcements>
-    <p>ANNOUNCEMENTS</p>
   </div>
-<div class=".col-md-6">
-<div class="text">
-    <p>
-     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+<!--End Blue Nav-->
+
+<!--Main Menu-->
+<div class="main-menu">
+  <div class="container-fluid">
+    <!--<img src="images/dark.png" />-->
+    <div class="menu-container">
+        <div class="menu-list">
+          <div class="navpics">
+          <ul class="main">
+            <li>
+              <a href="#">
+              <img src="images/performance.png"
+              onmouseover="this.src='images/pgreen.png'"
+              onmouseout="this.src='images/performance.png'"/>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                  <img src="images/people.png"
+                  onmouseover="this.src='images/peoplegreen.png'"
+                  onmouseout="this.src='images/people.png'"/>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                  <img src="images/messages.png"
+                  onmouseover="this.src='images/messagegreen.png'"
+                  onmouseout="this.src='images/messages.png'"/>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                  <img src="images/pricetag.png"
+                  onmouseover="this.src='images/taggreen.png'"
+                  onmouseout="this.src='images/pricetag.png'"/>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/note.png"
+                onmouseover="this.src='images/notesgreen.png'"
+                onmouseout="this.src='images/note.png'"/>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                  <img src="images/graph.png"
+                  onmouseover="this.src='images/graphgreen.png'"
+                  onmouseout="this.src='images/graph.png'"/>
+              </a>
+            </li>
+          </ul>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+<!--End Main Menu-->
+
+<!--Dashboard-->
+<div class="container">
+  <div class="dashboard">
+    <p class="dashboardtext">
+      Dashboard
     </p>
-    <div class="clickarrows">
-    <ul class="arrows">
-    <li>
-      <a href="#">
-      <img src="images/left.png"/>
-      </a>
-    </li>
-    <li>
-      <a href="#">
-      <img src="images/right.png"/>
-      </a>
-    </li>
-  </ul>
+  </div>
+  <div class="searchbar">
+    <form>
+      <input type="text" placeholder="Search..." required>
+      <input type="button" value="Search">
+    </form>
   </div>
 </div>
-</div>
-<div class="col-md-4">
-<div class="taskrow">
-  <div class="Task">
-    <p class="task-head">
-      Tasks
-    </p>
-    <a href="#">
-    <img src="images/graygear.png"class="graygear"/>
-  </a>
+<!--Dashboard End-->
+
+<!--Announcement-->
+<div class="container">
+  <div class="row"></div>
+  <div id=gradient>
+    <div class="white">
+      <div class=".col-xs-6 .col-md-4">
+      <div class="announcements">
+        <p class="atext">
+          ANNOUNCEMENTS
+        </p>
+          <p class=filler>
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+          </p>
+          <p class="left-arrow">
+            <a href="#">
+            <img src="images/leftarrow.png"/>
+          </a>
+          </p>
+          <p class="right-arrow">
+            <a href="#">
+              <img src="images/rightarrow.png"/>
+            </a>
+          </p>
+      </div>
+      </div>
+
+<!--Announcements (needs to be revisted)-->
+<!--Meat/Potatoes-->
+<div class="row">
+  <div class="col-md-4">
+    <div class="row">
+      <div class="tasks-main">
+        <p class="task-head">
+          Tasks
+        </p>
+        <a href="#">
+          <div class="task-gear">
+            <img src="images/graygear.png" alt="gear"/>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 tasks">
+        <a class="welcomecontacts" href="#">
+          <img src="images/welcome.png"
+            onmouseover="this.src='images/welcomeg.png'"
+            onmouseout="this.src='images/welcome.png'" />
+        </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 tasks">
+        <a class="welcomecontacts" href="#">
+          <img src="images/provide2.png"
+            onmouseover="this.src='images/provideg.png'"
+            onmouseout="this.src='images/provide2.png'" />
+        </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 tasks">
+        <a class="welcomecontacts" href="#">
+          <img src="images/review.png"
+            onmouseover="this.src='images/reviewg.png'"
+            onmouseout="this.src='images/review.png'" />
+        </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 tasks">
+        <a class="welcomecontacts-reach" href="#">
+          <img src="images/reach.png"
+            onmouseover="this.src='images/reachg.png'"
+            onmouseout="this.src='images/reach.png'" />
+        </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="tasks-main">
+        <p class="task-head">
+          Recommendations
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 tasks">
+        <a class="welcomecontacts" href="#">
+          <img src="images/7steps.png" />
+        </a>
+      </div>
+    </div>
+      <div class="row">
+        <div class="col-md-12 tasks">
+          <a class="welcomecontacts" href="#">
+            <img src="images/increase.png" />
+          </a>
+        </div>
+      </div>
+        <div class="row">
+          <div class="col-md-12 tasks">
+            <a class="welcomecontacts" href="#">
+              <img src="images/creating.png" />
+            </a>
+          </div>
+        </div>
+          <div class="row">
+            <div class="col-md-12 tasks">
+              <a class="welcomecontacts" href="#">
+                <img src="images/share.png" />
+              </a>
+            </div>
+          </div>
   </div>
-
-
-
 </div>
-
-
-
-
-
-
-
+<div class="col-md-8">
+  <div class="row">
+    <div class="col-md-12 analytics">
+      <p class="analytics">
+        Analytics
+      </p>
+      <img class="datachart"
+       src="images/data.png"
+       onmouseover="this.src='images/datapop.png'"
+       onmouseout="this.src='images/data.png'"/>
+    </div>
+  </div>
 </div>
+<!--CHECKBOXES-->
+<div class="col-md-12 checkboxes">
+
+  </form>
+</div>
+<!--End Checkboxes-->
+
+<!--Contacts and Customers-->
+<div class="row">
+  <div class="col-md-12 contacts-customers">
+    <div class="col-md-6 box1">
+      <img src="images/75contacts.png"/>
+      </div>
+      <div class="col-md-6 box2">
+        <img src="images/17customers.png"/>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 bluebox">
+      <div class="blueboxtext">
+        <p>
+          <span class="question">DID YOU KNOW?</span><br /><br />
+          The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+        </p>
+      </div>
+      </div>
+      <div class="bigarrowL">
+        <a href="#">
+        <img src="images/bigl.png" />
+        </a>
+      </div>
+      <div class="bigarrowR">
+        <a href="#">
+        <img src="images/bigr.png" />
+        </a>
+      </div>
+    
+</div>
+<!--End Contacts and Customers-->
+
+
+
+
+      </div>
+    </div>
+  </div>
+</body>
+
+
 
 
 
